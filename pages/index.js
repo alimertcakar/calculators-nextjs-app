@@ -8,7 +8,6 @@ export default function Home() {
         <title>Alimert Calculators</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      Test
       <Categories />
     </div>
   );
