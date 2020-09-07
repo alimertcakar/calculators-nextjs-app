@@ -1,5 +1,6 @@
 import { CssBaseline, Container } from "@material-ui/core"
 import ThemeProvider from "../styles/theme.tsx";
+import Footer from "../src/Footer";
 function MyApp({ Component, pageProps }) {
   React.useEffect(() => {
     // Remove the server-side injected CSS.
@@ -13,6 +14,8 @@ function MyApp({ Component, pageProps }) {
     <Container>
       <Component {...pageProps} />
     </Container>
+    <Footer />
+
   </ThemeProvider>
 }
 
