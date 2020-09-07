@@ -1,17 +1,15 @@
-import Head from 'next/head'
-import DirectionsRunIcon from '@material-ui/icons/DirectionsRun';
-import Categories from "src/Categories.tsx";
+import Head from "next/head";
+import Categories from "../src/Categories.js";
 
 export default function Home() {
   return (
-    <div >
+    <div>
       <Head>
         <title>Alimert Calculators</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <DirectionsRunIcon />
       Test
       <Categories />
     </div>
-  )
+  );
 }
